@@ -63,10 +63,20 @@ body {
 
 /* Puces */
 
-ul li {
-    list-style-image: url('../images/MM_puce_rose.svg');
+ul li { 	list-style:none; } 
+
+ul > li:before {
+    content:''; 	
+    display:inline-block; 	
+    height:0.75em; 	
+    width:0.75em; 	
+    background-image:url('../images/MM_puce_rose.svg'); 	
+    background-size:contain; 	
+    background-repeat:no-repeat;
+    margin-right: 4px; 
 }
 
-ul:nth-of-type(2n)  li {
-    list-style-image: url('../images/MM_puce_bleue.svg');
+ul:nth-of-type(2n) > li::before {
+    background-image: url('../images/MM_puce_bleue.svg');
 }
+
