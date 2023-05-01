@@ -52,11 +52,21 @@ body {
     }
 
     h3 {
-        color:rgb(148, 242, 255);
+        color: rgb(255, 143, 158);
         font-size: 26pt;
     }
 
     h3:nth-of-type(2n) {
-        color: rgb(255, 143, 158);
+        color:rgb(148, 242, 255);
     }
+}
+
+/* Puces */
+
+ul li {
+    list-style-image: url('../images/MM_puce_rose.svg');
+}
+
+ul:nth-of-type(2n)  li {
+    list-style-image: url('../images/MM_puce_bleue.svg');
 }
