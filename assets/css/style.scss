@@ -25,6 +25,19 @@
     url("../fonts/Handsome_Pro/handsome_w01_extrabold.svg#Handsome W01 Extra Bold") format("svg"); /* iOS 4.1- */
 }
 
+/* Header */
+
+.page-header {
+    background-color: #322d7d;
+    background-image: none;
+}
+
+.project-tagline {
+    color: #fa9cda;
+    font-weight: bold;
+}
+
+
 .prochains_concerts {
     font-family: "Delittle-chromatic";
     -moz-osx-font-smoothing: grayscale;
